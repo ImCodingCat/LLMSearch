@@ -18,6 +18,11 @@ GEMINI_API_KEY=YOUR_API_KEY
 APIFY_API_KEY=YOUR_API_KEY
 ```
 
+# Running
+```
+streamlit run app.py
+```
+
 - You can get Google Ai Studio Key at https://aistudio.google.com/apikey
 - Same also with apify at https://console.apify.com/
 
