@@ -19,7 +19,7 @@ apify_client = ApifyClient(APIFY_API_KEY)
 
 prompt = ""
 
-def GoogleMapSearch(searchString: list[str], location: str) -> dict[str, str]:
+def GoogleMapSearch(searchString: list[str], location: str)
     """Returns google map search result in object below
     place_name = The place name
     total_score = The total score of that place
@@ -61,7 +61,6 @@ def GoogleMapSearch(searchString: list[str], location: str) -> dict[str, str]:
 
     result = []
     for item in apify_client.dataset(run["defaultDatasetId"]).iterate_items():
-        print(item)
         result.append({
             "place_name": item["title"],
             "total_score": item["totalScore"],
